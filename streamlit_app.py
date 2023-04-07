@@ -45,7 +45,7 @@ try:
         streamlit.dataframe(back_from_function)
        
 except URLError as e:
-streamlit.error()
+        streamlit.error()
         
 # streamlit.text(fruityvice_response.json()) #writes the data on screen
 
